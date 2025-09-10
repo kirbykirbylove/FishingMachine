@@ -7,7 +7,8 @@ const { ccclass, property } = _decorator;
 @ccclass('Bullet')
 export class Bullet extends Component {
     @property moveSpeed = 480;
-    @property(BoxCollider2D) col: BoxCollider2D = null!;
+    @property(BoxCollider2D)
+    col: BoxCollider2D = null!;
 
     private gameManager!: GameManager;
     private alive = false;

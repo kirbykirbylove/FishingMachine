@@ -10,8 +10,10 @@ export class Boy extends Component {
     @property maxReward = 3;
     @property walkAnim = 'walk';
     @property deathAnim = 'death';
-    @property(sp.Skeleton) skeleton: sp.Skeleton = null!;
-    @property(BoxCollider2D) col: BoxCollider2D = null!;
+    @property(sp.Skeleton)
+    skeleton: sp.Skeleton = null!;
+    @property(BoxCollider2D)
+    col: BoxCollider2D = null!;
 
     private gameManager!: GameManager;
     private alive = false;

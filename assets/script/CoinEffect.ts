@@ -5,7 +5,8 @@ const { ccclass, property } = _decorator;
 
 @ccclass('CoinEffect')
 export class CoinEffect extends Component {
-    @property(SpriteFrame) coinSprite: SpriteFrame = null!;
+    @property(SpriteFrame)
+    coinSprite: SpriteFrame = null!;
     private gameManager!: GameManager;
 
     init(gameManager: GameManager) { 

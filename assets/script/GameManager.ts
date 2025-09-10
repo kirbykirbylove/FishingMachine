@@ -57,7 +57,7 @@ export class GameManager extends Component {
         this.scheduleOnce(() => {
             this.spawnBoy();
             this.scheduleRandomBoySpawn();
-        }, 1 + Math.random() * 3);
+        }, 1 + Math.random() * 1);
     }
 
     private spawnBoy() {
