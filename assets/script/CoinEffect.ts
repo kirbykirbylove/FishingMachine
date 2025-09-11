@@ -1,5 +1,5 @@
 // CoinEffect.ts
-import { _decorator, Component, Node, Vec3, tween, UITransform, Label, Color, Sprite, SpriteFrame, resources, instantiate } from 'cc';
+import { _decorator, Component, Vec3, tween, Label, Color, instantiate } from 'cc';
 import { GameManager } from './GameManager';
 const { ccclass, property } = _decorator;
 

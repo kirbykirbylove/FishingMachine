@@ -1,5 +1,5 @@
 // Cannon.ts
-import { _decorator, Component, Node, input, Input, EventKeyboard, KeyCode, Vec3, UITransform } from 'cc';
+import { _decorator, Component, input, Input, EventKeyboard, KeyCode, Vec3, UITransform } from 'cc';
 import { GameManager } from './GameManager';
 const { ccclass, property } = _decorator;
 

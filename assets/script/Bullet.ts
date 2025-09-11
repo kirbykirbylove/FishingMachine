@@ -1,5 +1,5 @@
 // Bullet.ts
-import { _decorator, Component, Node, BoxCollider2D, Contact2DType, Collider2D, UITransform } from 'cc';
+import { _decorator, Component, BoxCollider2D, Contact2DType, Collider2D, UITransform } from 'cc';
 import { GameManager } from './GameManager';
 import { Boy } from './Boy';
 const { ccclass, property } = _decorator;

@@ -1,5 +1,5 @@
 // Boy.ts
-import { _decorator, Component, Node, Vec3, BoxCollider2D, Contact2DType, UITransform, tween, sp } from 'cc';
+import { _decorator, Component, BoxCollider2D, UITransform, sp } from 'cc';
 import { GameManager } from './GameManager';
 const { ccclass, property } = _decorator;
 
