@@ -20,8 +20,7 @@ export class Boy extends Component {
     private dir = 1;
     private areaW = 1300;
 
-    // onLoad() {
-    // }
+    // onLoad() {}
 
     init(gameManager: GameManager, fromLeft: boolean) {
         this.gameManager = gameManager;
